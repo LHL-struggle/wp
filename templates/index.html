@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+	<script src="{{ url_for('static', filename='js/jquery-3.4.1.min.js') }}"></script>
+	
+	<style>
+        table {
+            height: 300px;
+            margin: 0 auto;
+            border-collapse: collapse;
+			text-align: center;
+        }
+
+        td {
+            border-bottom: 1px dotted #00f;
+            border-right: 1px dotted #00f;
+        }
+
+        td:last-child {
+            border-right: none;
+        }
+
+        tr:last-child td {
+            border-bottom:none;
+        }
+
+    </style>
+</head>
+<body>
+	<h2>电影分类</h2>
+	<table width="80%" cellspacing="0px" >
+        <tr>
+            <td><a href="/jq" style="text-decoration:none;">剧情</a></td>
+			<td><a href="/xj" style="text-decoration:none;">喜剧</a></td>
+			<td><a href="/dz" style="text-decoration:none;">动作</a></td>
+			<td><a href="/aq" style="text-decoration:none;">爱情</a></td>
+			<td><a href="/kh" style="text-decoration:none;">科幻</a></td>
+			<td><a href="/xb" style="text-decoration:none;">西部</a></td>
+			<td><a href="/qh" style="text-decoration:none;">奇幻</a></td>
+        </tr>
+        </tr>
+        <tr>
+            <td><a href="/dh" style="text-decoration:none;">动画</a></td>
+			<td><a href="/xy" style="text-decoration:none;">悬疑</a></td>
+			<td><a href="/js" style="text-decoration:none;">惊悚</a></td>
+			<td><a href="/kb" style="text-decoration:none;">恐怖</a></td>
+			<td><a href="/jlp" style="text-decoration:none;">纪录片</a></td>
+			<td><a href="/mx" style="text-decoration:none;">冒险</a></td>
+			<td><a href="/zn" style="text-decoration:none;">灾难</a></td>
+        </tr>
+        <tr>
+            <td><a href="/dp" style="text-decoration:none;">短片</a></td>
+			<td><a href="/tx" style="text-decoration:none;">同性</a></td>
+			<td><a href="/yy" style="text-decoration:none;">音乐</a></td>
+			<td><a href="/gw" style="text-decoration:none;">歌舞</a></td>
+			<td><a href="/jt" style="text-decoration:none;">家庭</a></td>
+			<td><a href="/wx" style="text-decoration:none;">武侠</a></td>
+			<td><a href="/gz" style="text-decoration:none;">古装</a></td>
+        </tr>
+        <tr>
+            <td><a href="/er" style="text-decoration:none;">儿童</a></td>
+			<td><a href="/zj" style="text-decoration:none;">传记</a></td>
+			<td><a href="/ls" style="text-decoration:none;">历史</a></td>
+			<td><a href="/zz" style="text-decoration:none;">战争</a></td>
+			<td><a href="/fz" style="text-decoration:none;">犯罪</a></td>
+			<td><a href="/yd" style="text-decoration:none;">运动</a></td>
+			<td><a href="/hs" style="text-decoration:none;">黑色电影</a></td>
+        </tr>
+    </table>
+	
+</body>
+</html>
